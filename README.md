@@ -27,6 +27,8 @@ The dataset contains six attributes that describe the characteristics of mushroo
 4. **Cap Color**: The color of the cap (e.g., brown, buff, cinnamon, gray, green, pink, purple, red, white, yellow).
 5. **Odor**: The odor of the mushroom (e.g., almond, anise, creosote, fishy, foul, musty, none, pungent, spicy).
 6. **Height**: The height of the mushroom.
+   
+<img width="244" alt="d" src="https://github.com/anandgunti/Edible_Mushroom/assets/25959661/cc583a0b-7dac-44cd-bd01-18c457a4501e">
 
 Converting variables to factors in R facilitates efficient handling of categorical data for machine learning algorithms designed for such data. Visualizing data distributions helps identify patterns, such as:
 - Conical cap shapes are often poisonous, while sunken shapes are usually edible.
@@ -37,7 +39,9 @@ Converting variables to factors in R facilitates efficient handling of categoric
 
 The following machine learning algorithms were evaluated in this project:
 
-1. **Logistic Regression**: A linear model for binary classification. Further tuning with methods like GLMNET enhanced its accuracy to 99.57% by selecting specific features.<img width="419" alt="1111" src="https://github.com/anandgunti/Edible_Mushroom/assets/25959661/b4a1b605-382c-48dd-a7dc-e2b7609b96c5">
+1. **Logistic Regression**: A linear model for binary classification. Further tuning with methods like GLMNET enhanced its accuracy to 99.57% by selecting specific features.
+
+  <img width="419" alt="1111" src="https://github.com/anandgunti/Edible_Mushroom/assets/25959661/b4a1b605-382c-48dd-a7dc-e2b7609b96c5">
 Fine Tuning using cross-validation method 
 
 2. **Decision Trees**: Non-linear models that split data based on feature values. Various models like rpart, C5.0, and ctree were explored, with C5.0 achieving the highest accuracy of 99.26% post-tuning.
