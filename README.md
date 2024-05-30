@@ -13,7 +13,7 @@ This project investigates and compares the performance of three popular machine 
 - [Results](#results)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
